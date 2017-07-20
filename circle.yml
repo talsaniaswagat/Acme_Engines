@@ -1,7 +1,11 @@
 machine:
-  java:
-    version: oraclejdk8
-test:
+  python:
+    version: 2.7.12
+dependencies:
   override:
-    - ant -lib lib/ -buildfile build/build.xml Build: 
-        timeout: 600
+    - 'pip install --upgrade pip'
+    - 'pip install --upgrade cumulusci'
+test:
+  pre:
+    - 'cci task list'
+    - 'cci task retrieve_unpackaged -o package_xml src/package_xml -o path src/test
