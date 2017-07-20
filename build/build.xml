@@ -225,7 +225,7 @@
 			maxPoll="${sf.maxPoll}" 
 			deployRoot="${user.dir}/src" 
 			logType="${env.SF_LOGDETAIL}" 
-			testLevel="${sf.testLevel}" 
+			testLevel="${sf.testLevel}" />
 	</target>
 	
 	<!--
