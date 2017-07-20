@@ -302,6 +302,7 @@
 		
 		<copy file="../src/package.xml" todir="${env.CIRCLE_ARTIFACTS}"/>
 			
+		<!-- <antcall target="DeployAndRunAllTests" /> -->
 		<antcall target="DeployAndRunAllTests" />
 		
 		<if>
