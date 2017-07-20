@@ -303,7 +303,7 @@
 		<copy file="../src/package.xml" todir="${env.CIRCLE_ARTIFACTS}"/>
 			
 		<!-- <antcall target="DeployAndRunAllTests" /> -->
-		<antcall target="DeployAndRunAllTests" />
+		<antcall target="DeployAndCheckOnly" />
 		
 		<if>
 			<equals arg1="${sf.runDeleteScript}" arg2="false" />
