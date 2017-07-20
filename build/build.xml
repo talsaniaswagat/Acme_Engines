@@ -224,8 +224,8 @@
 			serverurl="${sf.serverurl}" 
 			maxPoll="${sf.maxPoll}" 
 			deployRoot="${user.dir}/src" 
-			logType="${env.SF_LOGDETAIL}" />
-		<!--	testLevel="${sf.testLevel}" -->
+			logType="${env.SF_LOGDETAIL}" 
+			testLevel="${sf.testLevel}" 
 	</target>
 	
 	<!--
