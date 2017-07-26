@@ -10,5 +10,5 @@ dependencies:
 test:
   post:
     #- 'cci org list'
-    - 'cci task run retrieve_unpackaged --org devorg1 -o package_xml src/package.xml -o path src/test/'
+    - 'cci task run retrieve_unpackaged --org MyPersonalDevOrg -o package_xml src/package.xml -o path src/test/'
     - 'cci task run deploy --org devorg2 -o path src/test'
