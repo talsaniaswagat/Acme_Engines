@@ -1,5 +1,5 @@
 project:
-    name: MyPersonalDevOrg
+    name: Acme_Engines
     package:
         name: Test
         namespace: Test
